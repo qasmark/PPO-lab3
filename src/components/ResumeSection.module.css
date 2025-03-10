@@ -1,0 +1,50 @@
+/* src/components/ResumeSection.module.css */
+.resumeSection {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.resumeSection h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.resumeSection ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+.resumeSection li {
+  margin-bottom: 0.25rem;
+}
+
+.experienceItem, .projectItem, .educationItem {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed #eee;
+}
+
+.experienceItem:last-child,
+.projectItem:last-child,
+.educationItem:last-child{
+    border-bottom: none;
+}
+
+.experienceItem h3, .projectItem h3, .educationItem h3 {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 0.25rem;
+}
+
+.experienceItem p, .projectItem p, .educationItem p {
+  margin-bottom: 0.25rem;
+}
+.projectItem a {
+  color: #007bff;
+  text-decoration: none;
+}
+.projectItem a:hover {
+  text-decoration: underline;
+}
