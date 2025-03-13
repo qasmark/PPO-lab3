@@ -98,7 +98,7 @@ function App() {
   return (
     <div className={styles.app}>
       <header className={styles.header}>
-        <h1>Игнатьев Владислав</h1>
+        <h1>Игнатьев Владислав Дмитриевич</h1>
         <p>Full Stack Web Developer</p>
         <nav className={styles.nav}>
           <a href="#about">Обо мне</a>
