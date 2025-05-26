@@ -16,7 +16,7 @@ function App() {
       <div className={styles.experienceItem}>
         <h3>Globus</h3>
         <p>Full Stack Разработчик</p>
-        <p>Августа 2024 - настоящее время</p>
+        <p>Август 2024 - настоящее время</p>
         <ul>
           <li>Разработка и поддержка веб-приложений с использованием React, Angular, C#.</li>
           <li>Написание модульных тестов.</li>
