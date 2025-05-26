@@ -14,25 +14,14 @@ function App() {
   const experienceContent = (
     <div>
       <div className={styles.experienceItem}>
-        <h3>ICL Services</h3>
+        <h3>Globus</h3>
         <p>Full Stack Разработчик</p>
-        <p>Августа 2022 - Октябрь 2024</p>
+        <p>Августа 2024 - настоящее время</p>
         <ul>
           <li>Разработка и поддержка веб-приложений с использованием React, Angular, C#.</li>
-          <li>Участие в проектировании архитектуры приложений логистики компании.</li>
           <li>Написание модульных тестов.</li>
           <li>Рефакторинг и актуализация стека технологий с Angular на React.</li>
           <li>Взаимодействие с командой дизайнеров и менеджеров продукта.</li>
-        </ul>
-      </div>
-      <div className={styles.experienceItem}>
-        <h3>IMPERIUM WEB</h3>
-        <p>Frontend Разработчик</p>
-        <p>Январь 2025 - Настоящее время</p>
-        <ul>
-          <li>Разработка пользовательских интерфейсов с использованием React.</li>
-          <li>Верстка макетов из Figma.</li>
-          <li>Оптимизация производительности клиентской части веб-приложений на React.</li>
         </ul>
       </div>
     </div>
@@ -64,6 +53,7 @@ function App() {
       <li>Тестирование (Jest, React Testing Library)</li>
       <li>Webpack</li>
       <li>Figma</li>
+      <li>Python</li>
     </ul>
   );
 
@@ -90,6 +80,11 @@ function App() {
        <p>
           <a href="https://t.me/qasmark" target="_blank" rel="noopener noreferrer"> 
             Telegram
+         </a>
+       </p>
+       <p>
+          <a href="https://stepik.org/users/61874105/profile" target="_blank" rel="noopener noreferrer"> 
+            Stepik
          </a>
        </p>
     </div>
